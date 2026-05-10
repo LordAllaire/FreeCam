@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mob_optimizations",
+  "version": "${version}",
+  "name": "Mob Optimizations",
+  "description": "Freecam, Ore X-Ray, and NoClip for Minecraft 1.21.1",
+  "authors": ["mobopt"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.moboptimizations.MobOptimizationsMod"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "mob_optimizations.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

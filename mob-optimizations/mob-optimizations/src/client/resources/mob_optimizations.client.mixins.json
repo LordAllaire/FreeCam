@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.moboptimizations.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "FreecamCameraMixin",
+    "FreecamKeyboardInputMixin",
+    "XRayBlockStateMixin",
+    "XRayBlockRenderMixin",
+    "NoClipPlayerMixin",
+    "CameraInvokerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
